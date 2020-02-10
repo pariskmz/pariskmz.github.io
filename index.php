@@ -10,14 +10,7 @@
     
   </head>
   <body>
-<header>
-  <ul class="menu align-right">
-    <li><a href="#">One</a></li>
-    <li><a href="#">Two</a></li>
-    <li><a href="#">Three</a></li>
-    <li><a href="#">Four</a></li>
-  </ul>
-</header>
+
 <div class="grid-x">
   <div class="cell banner">
     <button type="button" class="success button btn-center  margin-top-1">Hola</button>
