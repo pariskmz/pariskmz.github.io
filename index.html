@@ -1,32 +1,38 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PKMZ</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="grid-x">
-  <div class="cell banner">
-    <button type="button" class="success button btn-center  margin-top-1">Hola</button>
-  </div>
+  <script src="js/modernizr.js"></script>
+  <script src="js/script.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/parallax-hero.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet"> 
+  
+  <title>DST Randomizer</title>
+</head>
+<body>
+  
+<div class="cd-background-wrapper">
+    <img class="logo" src="img/logo.png">
+  <figure class="cd-floating-background">
+    <img src="img/dont-starvebackground.jpg" alt="image-1">
+    <img src="img/dont-starvelayer4.png" alt="image-2">
+    <img src="img/dont-starvelayer2_0.png" alt="image-3">
+  </figure>
+    <div class="form">
+      <div id="character"></div>
+      <div id="bioma"></div>
+      <div class="btn">
+        <button onclick="WriteInfo()">Dale</button>
+        <button onclick="window.location.reload();">Reset</button>
+      </div>
+    </div>
 </div>
-
-
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-
-  </body>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/parallax-hero.js"></script>
+</body>
 </html>
