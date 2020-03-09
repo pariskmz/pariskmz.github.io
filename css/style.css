@@ -8,7 +8,7 @@ body{background:#000;}
 
 @media screen and (min-width:320px) and (max-width:600px){
     .btn{width:80%;}
-    .btn button{width:100%;margin-bottom: 10px;    background: rgba(255,255,255,.8)}
-    #character, #bioma{width:80%;}
+    .btn button{width:100%;margin-bottom: 10px;    }
+    #character, #bioma{width:80%;background: rgba(255,255,255,.8)}
 
 }
